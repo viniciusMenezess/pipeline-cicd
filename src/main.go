@@ -9,7 +9,7 @@ import (
 func index(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "text/plain")
-	fmt.Fprintf(w, "Application for uses with my pipeline CI-CD")
+	fmt.Fprintf(w, "Application to see how good i am going becoming a DEVOPS Engineer")
 }
 
 func main() {
